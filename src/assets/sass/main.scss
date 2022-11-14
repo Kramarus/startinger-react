@@ -1,0 +1,117 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+  padding-top: 16px; 
+  padding-bottom: 16px;
+}
+
+#thankyou {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.card-action {
+  cursor: pointer;
+}
+
+.service-text {
+  min-height: 96px;
+}
+
+
+.versetzt:nth-child(odd) {
+  display: flex!important;
+  flex-direction: row-reverse!important;
+}
+
+.versetzt ul {
+  list-style: circle!important;
+}
+
+span {
+  display: inline-block;
+}
+
+#services .columns {
+  flex-wrap: wrap;
+}
+
+#social {
+  display: flex;
+  margin: 8px 0;
+  li {
+    margin-right: 8px;
+    cursor: pointer;
+    width: 32px;
+    i {
+        height: 100%;
+        width: 100%;
+      }
+  }
+}
+
+
+footer form {
+  display: flex;
+  flex-direction: column;
+  input {
+    padding: 8px;
+    border-radius: 8px;
+  }
+}
+
+
+.pointer {
+  cursor: pointer;
+}
+
+#hero-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+}
+
+#hero-body {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  height: 100%;
+}
+
+#quote-form {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#learnmore-img {
+  width: 100%;
+}
+
+#thankyou img {
+  height: 128px;
+  filter:  brightness(0) invert(1);
+}
+
+#hero-image {
+  filter:  brightness(0) invert(1);
+}
+
+ .process-img img {
+  height: 120px!important;
+  filter:  brightness(0) invert(1);
+}
+
+.process-img {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+#newsletter {
+  border: 1px solid white;
+  border-radius: 16px;
+}
